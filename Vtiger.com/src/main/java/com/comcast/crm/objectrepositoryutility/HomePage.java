@@ -22,6 +22,9 @@ public class HomePage {
 	@FindBy(linkText = "Campaign")
 	private WebElement campaignlink;
 	
+	@FindBy(linkText = "Products")
+	private WebElement productlink;
+	
 	@FindBy(linkText = "More")
 	private WebElement morelink;
 	
@@ -45,6 +48,15 @@ public class HomePage {
 
 	public WebElement getCampaignlink() {
 		return campaignlink;
+	}
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+
+	public WebElement getProductlink() {
+		return productlink;
 	}
 
 
