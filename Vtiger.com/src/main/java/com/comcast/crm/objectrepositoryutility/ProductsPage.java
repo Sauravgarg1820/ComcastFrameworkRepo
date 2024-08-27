@@ -6,8 +6,11 @@ import org.openqa.selenium.support.FindBy;
 public class ProductsPage {
 
 	@FindBy(xpath = "//img[@alt=\"Create Product...\"]")
-		private WebElement createProductImgBtn;
-	
+	private WebElement createProductImgBtn;
+
 	@FindBy(name = "searchBtn")
 	private WebElement ele3;
+
+	@FindBy(name = "search")
+	private WebElement ele2;
 }
