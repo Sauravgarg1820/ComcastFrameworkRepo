@@ -13,4 +13,5 @@ public class ProductsPage {
 
 	@FindBy(name = "search")
 	private WebElement ele2;
-}
+
+	}
