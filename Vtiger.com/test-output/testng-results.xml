@@ -2,43 +2,43 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T05:44:25Z" name="Default suite" finished-at="2024-08-22T05:44:42Z" duration-ms="16706">
+  <suite started-at="2024-08-30T15:06:39 IST" name="Suite" finished-at="2024-08-30T15:06:59 IST" duration-ms="20208">
     <groups>
       <group name="smokeTest">
-        <method signature="MultipleOrganizationTest.createOrganizationTest()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" name="createOrganizationTest" class="com.comcast.crm.multipleorgtest.MultipleOrganizationTest"/>
+        <method signature="MultipleContactTest.createContactTest()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" name="createContactTest" class="com.comcast.crm.multiplecontacttest.MultipleContactTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2024-08-22T05:44:25Z" name="Default test" finished-at="2024-08-22T05:44:42Z" duration-ms="16706">
-      <class name="com.comcast.crm.multipleorgtest.MultipleOrganizationTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:25Z" name="configBS" finished-at="2024-08-22T05:44:25Z" duration-ms="65" status="PASS">
+    <test started-at="2024-08-30T15:06:39 IST" name="Test" finished-at="2024-08-30T15:06:59 IST" duration-ms="20208">
+      <class name="com.comcast.crm.multiplecontacttest.MultipleContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:06:39 IST" name="configBS" finished-at="2024-08-30T15:06:39 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:25Z" name="configBC" finished-at="2024-08-22T05:44:27Z" duration-ms="2156" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:06:39 IST" name="configBC" finished-at="2024-08-30T15:06:42 IST" duration-ms="2695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:27Z" name="configBM" finished-at="2024-08-22T05:44:31Z" duration-ms="3351" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:06:42 IST" name="configBM" finished-at="2024-08-30T15:06:45 IST" duration-ms="3369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createOrganizationTest()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:31Z" name="createOrganizationTest" finished-at="2024-08-22T05:44:40Z" duration-ms="9506" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:06:45 IST" name="createContactTest" finished-at="2024-08-30T15:06:57 IST" duration-ms="11608" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:40Z" name="configAM" finished-at="2024-08-22T05:44:42Z" duration-ms="1411" status="PASS">
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:06:57 IST" name="configAM" finished-at="2024-08-30T15:06:58 IST" duration-ms="1459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:42Z" name="configAC" finished-at="2024-08-22T05:44:42Z" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:06:58 IST" name="configAC" finished-at="2024-08-30T15:06:59 IST" duration-ms="1048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.multipleorgtest.MultipleOrganizationTest@1fc32e4f]" started-at="2024-08-22T05:44:42Z" name="configAS" finished-at="2024-08-22T05:44:42Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.multiplecontacttest.MultipleContactTest@ea6147e]" started-at="2024-08-30T15:07:00 IST" name="configAS" finished-at="2024-08-30T15:07:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.comcast.crm.multipleorgtest.MultipleOrganizationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.comcast.crm.multiplecontacttest.MultipleContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

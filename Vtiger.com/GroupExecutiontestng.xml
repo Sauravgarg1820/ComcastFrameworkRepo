@@ -6,7 +6,7 @@
 			<include name="smokeTest"></include>
 		</run>
 	</groups>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="test">
     <classes>
       <class name="com.comcast.crm.multiplecontacttest.MultipleContactTest"/>
       <class name="com.comcast.crm.multipleorgtest.MultipleOrganizationTest"/>
